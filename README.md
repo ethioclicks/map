@@ -31,26 +31,31 @@ To work we need the following dependencies:
 
 ![pemmision for android](https://user-images.githubusercontent.com/58349651/140055853-fe53f395-3abd-4299-92a4-987945101baa.png)
 
+![permmission for ios](https://user-images.githubusercontent.com/58349651/140055858-b2a600fc-6060-4b0a-b2f4-09fb0537a81d.png)
+
 3.	geolocator:
-•	Used to focus on where we are.
+    •	Used to focus on where we are.
 4.	http:
-•	To use our Google API.
+    •	To use our Google API.
 5.	geocoding:
-•	To convert address written with coordinates to readable address and vice versa.
+    •	To convert address written with coordinates to readable address and vice versa.
+    
 Chapter 3
 Create and setup Google map API
+
 After creating our API we need to set up the API so that it can be used by our application by:
 1.	Enable APIs for android, ios, for rest searches for places:
-•	Go to: Menu -> APIs & Services -> Library
-•	Enable three APIs: Maps SDK for Android, maps SDK for ios, places API
+    •	Go to: Menu -> APIs & Services -> Library
+    •	Enable three APIs: Maps SDK for Android, maps SDK for ios, places API
 2.	Create and get an API key:
-•	Go to: Menu -> APIs & Services -> Credentials
-•	In Credentials page create API by pressing: 
+    •	Go to: Menu -> APIs & Services -> Credentials
+    •	In Credentials page create API by pressing: 
 Create credentials-> API key
  
+![create_credentials](https://user-images.githubusercontent.com/58349651/140055842-e8f2d3bb-e30e-4de5-bd31-d01b65b9f765.png)
 
 •	Then a dialogue box will appear:
- 
+ ![create_api_dialoguebox](https://user-images.githubusercontent.com/58349651/140055809-8f92565f-617f-41e5-a81d-531dbabe5601.png) 
 
 •	Select RESTRICT KEY
 •	Then we will restrict Maps SDK for Android, maps SDK for ios, places API.
